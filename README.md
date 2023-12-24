@@ -33,12 +33,11 @@ The arugments are below, listed in the order of arguments when running the scrip
 
 | Item | Comment |
 |--|--|
-| Instrument | Instrument. use v3/accounts/{accountID}/instruments to get the list of available instruments. e.g. USD_JPY |
+| Instrument | A comma-separated list of instruments. use v3/accounts/{accountID}/instruments to get the list of available instruments. e.g. USD_JPY,EUR_USD |
 | From Time | A date and time value using either RFC3339 or UNIX time representation. e.g. 2023-11-03T00:00:00Z |
 | To Time | A date and time value using either RFC3339 or UNIX time representation. e.g. 2023-12-11T00:00:00Z |
 | [Granularity][1] | how granular each candle must be e.g. M1
 | API Key | api key obtained from Oanda for practic environment |
-| File name | output file path e.g. my_output.csv
 
 
 
